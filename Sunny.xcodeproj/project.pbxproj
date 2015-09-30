@@ -13,6 +13,8 @@
 		4CD4E5E21BBBBDE800FD6E2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4E5E11BBBBDE800FD6E2C /* Images.xcassets */; };
 		4CD4E5E51BBBBDE800FD6E2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4E5E31BBBBDE800FD6E2C /* LaunchScreen.xib */; };
 		4CD4E5F11BBBBDE900FD6E2C /* SunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4E5F01BBBBDE900FD6E2C /* SunnyTests.swift */; };
+		4CD4E5FD1BBBBF1300FD6E2C /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4E5FC1BBBBF1300FD6E2C /* CurrentWeather.plist */; };
+		4CD4E5FF1BBBBF6D00FD6E2C /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4E5FE1BBBBF6D00FD6E2C /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4CD4E5EA1BBBBDE900FD6E2C /* SunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD4E5EF1BBBBDE900FD6E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD4E5F01BBBBDE900FD6E2C /* SunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyTests.swift; sourceTree = "<group>"; };
+		4CD4E5FC1BBBBF1300FD6E2C /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CurrentWeather.plist; path = ../../../../Downloads/CurrentWeather.plist; sourceTree = "<group>"; };
+		4CD4E5FE1BBBBF6D00FD6E2C /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = ../CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				4CD4E5DE1BBBBDE800FD6E2C /* Main.storyboard */,
 				4CD4E5E11BBBBDE800FD6E2C /* Images.xcassets */,
 				4CD4E5E31BBBBDE800FD6E2C /* LaunchScreen.xib */,
+				4CD4E5FE1BBBBF6D00FD6E2C /* CurrentWeather.swift */,
 				4CD4E5D81BBBBDE800FD6E2C /* Supporting Files */,
 			);
 			path = Sunny;
@@ -90,6 +95,7 @@
 		4CD4E5D81BBBBDE800FD6E2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CD4E5FC1BBBBF1300FD6E2C /* CurrentWeather.plist */,
 				4CD4E5D91BBBBDE800FD6E2C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD4E5E01BBBBDE800FD6E2C /* Main.storyboard in Resources */,
+				4CD4E5FD1BBBBF1300FD6E2C /* CurrentWeather.plist in Resources */,
 				4CD4E5E51BBBBDE800FD6E2C /* LaunchScreen.xib in Resources */,
 				4CD4E5E21BBBBDE800FD6E2C /* Images.xcassets in Resources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD4E5DD1BBBBDE800FD6E2C /* ViewController.swift in Sources */,
+				4CD4E5FF1BBBBF6D00FD6E2C /* CurrentWeather.swift in Sources */,
 				4CD4E5DB1BBBBDE800FD6E2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
